@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+}
+body {
+	font-family: 'myriad-light', 'Roboto', sans-serif, Tahoma;
+    font-size: 1.8rem;
+    color: #333;
+    background-color: #fff;
+}
+header {
+    position: relative;
+}
+.xs-show {
+    display: none !important;
+}
+/* Custom navbar style */
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;   
+}
+.navbar-nav>li>a {
+    color: rgba(255,255,255,0.8);
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+    background-color: rgba(0,0,0,0);
+    color: #f7b600;
+}
+.panel {
+    margin-bottom: 0px;
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+
+
+/* visa navbar style */
+.visa-navbar {
+    border-radius: 0;
+    font-family: 'Roboto-light', sans-serif;
+    font-weight: 200;
+    background: #1a1e5a;
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0,#1a1e5a),color-stop(100%,#122d98));
+    background: -webkit-linear-gradient(45deg,#1a1e5a 0,#122d98 100%);
+    background: linear-gradient(45deg,#1a1e5a 0,#122d98 100%);
+}
+
+@media (min-width: 768px) {
+}
+.visa-navbar .navbar-nav {
+    font-size: 1.8rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
+.visa-navbar>.container .navbar-brand {
+    margin-top: 1.8rem;
+    padding-top: .5rem;
+}
+.visa-navbar .visa-logo {
+    height: 4rem;
+}
+
+
+/* sub-menu style */
+.visa-navbar .sub-menu {
+    text-align: center;
+}
+.visa-navbar .sub-menu .subNav-icon {
+    color: #1a1f71;
+    font-size: 36px;
+    line-height: 1;
+    display: block;
+    padding: 10px 0;
+}
+.visa-navbar .sub-menu .subNav-label {
+    padding-top: 1rem;
+    line-height: 1;
+    display: block;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+
+/* tier-menu style */
+.tier-menu {
+    position: absolute;
+    z-index:100;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.97);
+    top: 92px;
+    box-shadow: 0px 1px 3px #888888;   
+}
+.tier-menu .nav>li{
+    padding: 25px 0;
+}
+
+.tier-menu .nav>li>a {
+    padding: 0 32px;
+}
+.tier-menu .nav>li>a:hover, nav>li>a:focus {
+    background-color: rgba(0,0,0,0);   
+}
+
+.tier-menu .nav>li>a:hover .subNav-label{
+    text-decoration: underline; 
+}
+
+/* form search style */
+.form-btn-search .form-control {
+    border: 1px solid #cccccc;
+    
+    border-right: 0;
+    padding-left: .6rem;
+    height: 44px;
+}
+.form-btn-search {
+    margin: 35px 0;
+}
+#search {
+    position: relative;
+    font-size: 18px;
+}
+#search label {
+    position: absolute;
+    left: 15px;
+    top: 9px;
+    z-index: 100;
+}
+#search #search-input {
+    padding-left: 43px;
+    border-radius: 0px;
+}
+.input-group-btn {   
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    width: 1%;
+    vertical-align: middle;
+    display: table-cell;
+    border: 1px solid #cccccc;
+    color: #333;
+    border-left: 0;
+    height: 44px;
+    background-color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0;
+}
+.input-group-btn:focus {
+    background-color: #333;
+
+}
+/* navbar search icon style */
+.visa-navbar .nav-icon-left-line {
+    display: inline-block;
+    width: 1px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    background-color: rgba(255,255,255,0.25);
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    height: 4.5rem;
+}
+.search-icon {
+    color: #f7b600;
+    font-size: 30px;
+}
+.visa-navbar .navbar-nav .search-nav-item {
+    padding-top: 20px;
+}
+.visa-navbar button {
+    background: 0;
+    border: 0;
+}
+.visa-navbar button:focus {
+    outline: 0 !important;
+}
+.visa-navbar .nav>li {
+    position: static;
+    display: inline-block;
+}
+
+/* navbar underline style */
+.navline {
+    height: 5px;
+}
+.navline .nav-indicator-bar {  
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 1s;
+    transition: 1s;
+    background: url(../images/global-nav-indicator-bar.jpg) -2500px 0;
+}
+.navline .nav-indicator {
+    position: absolute;
+    bottom: 12px;
+    width: 30px;
+    height: 10px;
+    display: none;
+    z-index: 10;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+/* slider style */
+.slider-container {
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-image: url('../images/travel-with-visa-2258x1500.jpg');
+    background-color: rgb(82, 130, 44);
+    min-height:600px;
+}
+
+
+

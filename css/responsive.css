@@ -1,0 +1,234 @@
+/* lg */ 
+@media (min-width: 1200px) {   
+	.visa-navbar .navbar-nav {
+    	float: right;
+	}
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container {
+    	padding-left: 3rem;
+    	padding-right: 3rem;
+		width: 100%;
+	}
+
+	.visa-navbar .navbar-nav {
+   		 font-size: 1.6rem;
+	}
+
+   .visa-navbar .visa-logo {
+    height: 3.2rem;
+    }
+	.visa-navbar .navbar-nav {
+    	float: right;
+	}
+
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.container {
+    	padding-left: 2rem;
+    	padding-right: 2rem;
+    	width: 100%;
+	}
+	.visa-navbar .navbar-nav {
+    	float: right;
+	}
+	.visa-navbar .visa-logo {
+    	height: 2.5rem;
+	}
+
+	.visa-navbar .navbar-nav {
+   		 font-size: 1.3rem;
+	}
+    .search-icon {
+    	font-size: 22px;
+	}
+
+	.visa-navbar .navbar-nav .nav-icon-left-line {
+    	margin-left: 1rem;
+    	margin-right: 1.5rem;
+    	margin-top: -0.3rem;
+    	height: 4.5rem;
+	}
+
+
+	.nav>li>a {
+		padding: 0 8px;
+		padding-top: 2rem;
+	}
+	.visa-navbar .navbar-nav .search-nav-item {
+    	padding-top: 1.5rem;
+	}
+
+	.visa-navbar .tier-menu {
+    	top: 7.4rem;    
+	}
+
+	.visa-navbar .sub-menu .subNav-icon {
+    	font-size: 2.5rem;
+    	padding: 10px 0;
+	}
+	.visa-navbar .sub-menu .subNav-label {
+		padding-top: 0.7rem;
+    	font-size: 1.3rem;
+	}
+
+	.tier-menu .nav>li>a {
+       padding: 0 1.6rem;
+    }
+
+}
+/* xs */
+@media (max-width: 767px) {
+	header {
+    	margin: -5px;
+	}
+	.search-icon {
+    	font-size: 22px;
+		padding: 5px 0;
+		padding-left: 12px;
+    	border-left: 1px solid rgba(255,255,255,0.25);
+	}
+	.navbar-toggle .nav-icon-btn {
+    color: #fff;
+    font-size: 2.5rem;
+    } 
+
+
+   .navbar-pull-right {
+   		padding-right: 0;
+   		padding-top: 1.5rem;
+   		margin-right: 0;
+   }
+
+
+	.xs-hidden {
+    	display: none !important;
+	}
+	.xs-show {
+		display: block !important;
+	}
+
+	.visa-navbar .nav>li {
+      position: static;
+      display: block;
+
+	}
+
+	.visa-navbar>.container .navbar-brand {
+    	margin-top: 1.8rem;
+    	padding-top: .5rem;
+	}
+	.visa-navbar .visa-logo {
+	    height: 25px;
+	}
+	.navbar-nav>li>a {
+	    color: #333;
+	    font-size: 2.2rem;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+
+	}
+	.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+	    color: #000;
+	}
+	.visa-navbar .nav-mobile {
+	    margin-bottom: 0;
+	}
+	.visa-navbar .nav-mobile {
+	    
+	    background-color: #fff; 
+	    margin: 0 -12px;
+	}
+	.visa-navbar .nav-mobile >li {
+	    border-bottom: .1rem solid #dedede;
+	    padding: 2rem 0;
+	    background-color: #fff; 
+	    margin: 0 15px;
+	}
+	.visa-navbar .nav-mobile >li:last-child {
+	    border-bottom: 0;
+	}
+	.visa-navbar .nav-mobile li a:hover,  
+	.visa-navbar .nav-mobile li a:focus
+	{
+		background-color: transparent;
+	}
+	.navline .nav-indicator-bar {
+	    position: absolute;
+	    top: 70px;
+	    height: 5px;
+	}
+	.nav-mobile .link-arrow::before {
+		font-family: FontAwesome;
+		content: '\f105';
+	    color: #1a1f71;
+	    font-size: 2.5rem;
+	    line-height: 1;
+	    padding-right: 10px;
+	    position: relative;
+	}
+
+	.nav-mobile .dropdown.open .link-arrow::before {
+	    content: '\f107';
+	}
+
+	.nav-mobile .dropdown .dropdown-menu {
+		background-color: #f7f7f7;
+	    border-top: .1rem solid #dedede;
+	    border-bottom: .1rem solid #dedede;
+	    border-radius: 0;
+	    width: 100%;
+	    padding: 1rem 1.5rem;
+	    max-width: 100%;
+	    box-sizing: content-box;
+	    margin: 0 -15px;    
+	    margin-top: 20px;
+	    margin-bottom: -21px;
+	}
+	.nav-mobile .dropdown .dropdown-menu li {
+	    padding: 0.9rem 0;
+	    margin: 0 22px;
+	    font-size: 1.9rem;
+	    font-weight: 200;
+	    font-family: 'Roboto-light', sans-serif, Tahoma;
+	    color: #1a1f71;
+	}
+
+	.slider-container {
+	    background-size:cover;
+	    background-position:right top;
+	}
+
+	.visa-navbar .navbar-toggle.collapsed .fa-times {
+	    display: none;
+	}
+
+	.visa-navbar .navbar-toggle .fa-times {
+	    display: block;
+	}
+
+	.visa-navbar .navbar-toggle .fa-bars {
+	    display: none;
+	}
+
+	.visa-navbar .navbar-toggle.collapsed .fa-bars {
+	    display: block;
+	}
+
+	.visa-navbar .tier-menu {
+	    	top: 7.4rem;    
+	}
+	.btn-search {
+		background-color: #fff; 
+	}
+	.btn-search:focus {
+		outline: none;
+	}
+	.p-l-30 {
+		padding-left: 4rem !important;
+	}
+
+}
